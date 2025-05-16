@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RajBitlu.com</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+        header marquee {
+            font-size: 80px;
+            color: red;
+            background: yellow;
+        }
+        h1 {
+            text-align: center;
+            color: blue;
+            font-size: 40px;
+        }
+        main {
+            flex: 1;
+        }
+        .image-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 20px;
+        }
+        img {
+            width: 300px;
+            height: 400px;
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <marquee behavior="scroll" direction="right" scrollamount="20">RajBitlu.com</marquee>
+    </header>
+    <main>
+        <h1>Raj Khalifa</h1>
+        <div class="image-container">
+            <img src="JS.jpeg" alt="Image 1">
+            <img src="Raj.jpg" alt="Image 2">
+            <img src="mk.jpeg" alt="Image 3">
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 RajBitlu.com. All rights reserved.</p>
+    </footer>
+</body>
+</html>
